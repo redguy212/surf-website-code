@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './components/button/button'
+import {Input} from './components/input/input'
 
 function App() {
   return (
@@ -18,7 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/qajUDQXuZgk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <Button onClick={undefined} disabled={0}>this is a button</Button> 
+      <Input/>
     </div>
   );
 }
