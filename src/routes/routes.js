@@ -1,6 +1,6 @@
 import React from "react"
 import { Routes, Route } from "react-router-dom";
-
+import { MapListPage } from "../pages";
 import { LandingPage } from "../pages";
 
 
@@ -16,6 +16,7 @@ const AppRoutes = () => {
         <div data-testid="app-routes-container">
             <Routes>
                 <Route path="/" element={<LandingPage />} />
+                <Route path='/maps' element={<MapListPage />} />
             </Routes>
         </div>
     )
