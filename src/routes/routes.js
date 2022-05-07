@@ -13,11 +13,11 @@ import { LandingPage } from "../pages";
 const AppRoutes = () => {
 
     return (
-        <>
+        <div data-testid="app-routes-container">
             <Routes>
                 <Route path="/" element={<LandingPage />} />
             </Routes>
-        </>
+        </div>
     )
 }
 
