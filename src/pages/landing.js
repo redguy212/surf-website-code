@@ -5,7 +5,6 @@ import {Input} from "../components/input/input";
 
 const LandingPage = () => {
 
-    console.log("fire")
     return (
         <>
             <img src={logo} className="App-logo" alt="logo" />
