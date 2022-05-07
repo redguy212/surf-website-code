@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../logo.svg";
-import Button from "../components/button/button";
-import {Input} from "../components/input/input";
+import logo from "../../logo.svg";
+import Button from "../../components/button/button";
+import {Input} from "../../components/input/input";
 
 const LandingPage = () => {
 
